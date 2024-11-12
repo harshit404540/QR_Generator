@@ -1,7 +1,7 @@
 import qrcode as qr
 import os
 
-os.system("pip install qrcode pil")
+os.system("pip install Pillow qrcode")
 
 def qr_code_creator():
     try:
